@@ -1,21 +1,15 @@
 {
   "name": "unwall-api",
   "version": "1.0.0",
-  "private": true,
-  "type": "module",
+  "description": "Unwall neuroplasticity app backend",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^16.6.1",
-    "express": "^4.22.1",
-    "openai": "^4.104.0",
-    "zod": "^3.25.51"
-  },
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "openai": "^4.73.0"
+  }
 }
